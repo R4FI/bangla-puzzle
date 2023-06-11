@@ -1,0 +1,34 @@
+ /* Responsive styles for tablets */
+ @media only screen and (max-width: 768px) {
+    h1{
+        width: 100% !important;
+    }
+    p{
+        width: 90% !important;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    p{
+        width: 90% !important;
+       }
+  }
+
+
+
+  @media only screen and (max-width: 600px) {
+    p{
+        width: 90% !important;
+       }
+  }
+  
+  /* Responsive styles for phones */
+  @media only screen and (max-width: 480px) {
+    h1{
+        width: 100% !important;
+    }
+    p{
+    width: 100% !important;
+   }
+  }
+ 

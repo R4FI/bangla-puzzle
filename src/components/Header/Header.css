@@ -1,0 +1,30 @@
+.bgnav{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    padding: 30px 16px;
+}
+.navimg{
+    width: 200px;
+    height: 82.72px;
+}
+
+.navbtn{
+    background-color: #dc3545;
+    border-color: #dc3545;
+    padding: 0.375rem 0.75rem;
+    border: 1px solid;
+    border-radius: 0.25rem;
+    font-weight: 400;
+    color: white;
+    font: 16px;
+    width: 100px;
+}
+.navfont{
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: black;
+}
+
+.navfont:active{
+    color: #dc3545 !important;
+}

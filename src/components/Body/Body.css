@@ -1,0 +1,190 @@
+body{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.input-container {
+    display: flex;
+    align-items: center;
+    width: 730px;
+    height: 4rem;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  span{
+    font-weight: 500;
+  }
+  .mail-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 1rem;
+  }
+  
+  .email-input {
+    flex: 1;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 0 1rem;
+    font-size: 1rem;
+    border-radius: 6px;
+  }
+  .bodytxt2{
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: left;
+    float: left;
+    line-height: 2rem;
+    margin-top: 5px;
+}
+  .button {
+    height: 45px;
+    width: 27%;
+    margin: 10px;
+    border: none;
+    background: #dc3545;
+    color: #fff;
+    border-radius: 4px;
+  }
+  
+  /* Responsive styles for tablets */
+  @media only screen and (max-width: 768px) {
+    .bodytxt{
+        width: 100% !important;
+       }
+    .input-container {
+      height: 4rem;
+      width: 100%;
+    }
+  
+    .mail-icon {
+      width: 2rem;
+      height: 2rem;
+    }
+  
+    .email-input {
+      font-size: 0.9rem;
+    }
+  
+    .button {
+      padding: 0.3rem 0.8rem;
+    }
+    .bodytxt2{
+        width: 100% !important;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    .bodytxt{
+        width: 100% !important;
+       }
+    .input-container {
+        height: 4rem;
+        
+      }
+    
+      .mail-icon {
+        width: 2rem;
+        height: 2rem;
+      }
+    
+      .email-input {
+        font-size: 0.9rem;
+      }
+    
+      .button {
+        padding: 0.3rem 0.8rem;
+      }
+      .bodytxt2{
+        width: 100% !important;
+    }
+  }
+
+
+
+  @media only screen and (max-width: 600px) {
+    .bodytxt{
+        width: 100% !important;
+       }
+        .input-container {
+          height: 4rem;
+          width: 100%;
+          padding: 5px 5px;
+        }
+      
+        .mail-icon {
+          width: 1.5rem;
+          height: 1.5rem;
+        }
+      
+        .email-input {
+          font-size: 0.8rem;
+        }
+      
+        .button {
+          padding: 0.2rem 0.6rem;
+        }
+    
+        .bodytxt2{
+            width: 100% !important;
+        }
+  }
+  
+  /* Responsive styles for phones */
+  @media only screen and (max-width: 480px) {
+   .bodytxt{
+    width: 100% !important;
+   }
+    .input-container {
+      height: 4rem;
+      width: 100%;
+      padding: 5px 5px;
+    }
+  
+    .mail-icon {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+  
+    .email-input {
+      font-size: 0.8rem;
+    }
+  
+    .button {
+      padding: 0.2rem 0.6rem;
+    }
+
+    .bodytxt2{
+        width: 100% !important;
+    }
+  }
+  @media only screen and (min-width: 992px) {
+    .bodytxt{
+        width: 100% !important;
+       }
+        .input-container {
+          height: 4rem;
+          width: 730px;
+          padding: 5px 5px;
+        }
+      
+        .mail-icon {
+          width: 1.5rem;
+          height: 1.5rem;
+        }
+      
+        .email-input {
+          font-size: 0.8rem;
+        }
+      
+        .button {
+          padding: 0.2rem 0.6rem;
+        }
+    
+        .bodytxt2{
+            width: 730px !important;
+        }
+  }
+  
